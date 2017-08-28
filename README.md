@@ -1,24 +1,27 @@
 <---------BASIC AUTH API for SOCIAL COPS--------->
 
-To install server - npm install
-To start server - npm start 
-To test api(s) - npm test 
+Command Line Actions :
+
+1. To install server - npm install
+2. To start server - npm start 
+3. To test api(s) - npm test 
 
 Routes at port 3000 :
 
 1. Authentication -
-	address : /login
-	method : POST
-	input : username, password
+                --> route - /login 
+                --> method - POST;  
+                --> inputs - username, password
 
 2. JSON Patch -
-	address :/patch 
-	method : POST
-	input : object, patch(s) separated by , (both JSON)
+		--> route - /patch;  
+		--> method - POST; 
+		--> inputs - object, patch(s) separated by , (both JSON)
+	
 3. Thumbnail -
-	address : /thumbnail
-	method : POST
-	input : uri
+		--> route - /thumbnail; 
+		--> method - POST; 
+		--> inputs - uri
 
 
 
