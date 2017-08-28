@@ -2,16 +2,16 @@
 
 Command Line Actions :
 
-1. To install server - npm install
+1. To install dependencies - npm install
 2. To start server - npm start 
 3. To test api(s) - npm test 
 
 Routes at port 3000 :
 
-1. Authentication -
-                --> route - /login 
-                --> method - POST;  
-                --> inputs - username, password
+1. Authentication -	                            								
+                --> route - /login 				
+                --> method - POST;  					
+                --> inputs - username, password					
 
 2. JSON Patch -
 		--> route - /patch;  
